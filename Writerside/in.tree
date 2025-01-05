@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="in"
+                 name="Software Architecture & System Design"
+                 start-page="starter-topic.md">
+
+    <toc-element topic="starter-topic.md">
+        <toc-element topic="System-Requirements-Architecture-Driver.md"/>
+        <toc-element topic="Crucial-Quality-Feature.md"/>
+        <toc-element topic="API-Design.md"/>
+        <toc-element topic="Architecture-Building.md"/>
+        <toc-element topic="Data-Storage.md"/>
+        <toc-element topic="Software-Architecture-Pattern.md"/>
+        <toc-element topic="Big-Data-Architecture-Pattern.md"/>
+        <toc-element topic="Software-Architecture-System-Design-Practice.md"/>
+    </toc-element>
+</instance-profile>
