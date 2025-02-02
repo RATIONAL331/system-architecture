@@ -1,3 +1,0 @@
-# Practice Software Architecture & System Design
-
-Start typing here...
