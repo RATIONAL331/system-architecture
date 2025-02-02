@@ -9,6 +9,7 @@
 ### Multilayer Architecture
 * 단일 어플리케이션 안에서 여러 논리적 계층이나 모듈로 나누는 것을 의미
 ## Three-Tier Architecture (Monolithic Architecture)
+![MONOLITHIC.png](MONOLITHIC.png)
 * 대부분의 웹 기반 서비스에 적합
 * 수평 확장에 용이
 * 논리 계층이 하나로 집약되어있다는 부분은 단점 (`Monolithic`)
@@ -24,20 +25,24 @@
 * 사용자 데이터나 비즈니스 데이터를 저장하고 유지
 
 ## Microservice Architecture
+![MICRO_SERVICE.png](MICRO_SERVICE.png)
 * 비즈니스 로직을 독립적으로 배포된 서비스로 조직
 * 각 서비스가 각 하나의 도메인, 리소스, 액션을 맡아야 함
 * 서비스마다 다른 DB를 사용해야 할 것임
 
 
 ## Event-Driven Architecture
+![EVENT_DRIVEN.png](EVENT_DRIVEN.png)
 * 각각의 마이크로서비스간 통신에 동기식 명령 대신 이벤트 기반으로 처리
 * 각각은 메시지 브로커를 사용하여 연결
   * 의존성을 줄일 수 있게 됨
   * 단순히 이벤트만 발행하면 해당 이벤트를 컨슘하는 곳은 해당 부분을 처리
 ### Event Sourcing Pattern
+![EVENT_SOURCING.png](EVENT_SOURCING.png)
 * 모든 불변 이벤트에 대해서 원하는 만큼 저장하여 DB 없이도 리플레이 가능
 * 중간에 스냅샷을 두어 더욱 빠르게 조회 가능
 ### CQRS Pattern
+![CQRS.png](CQRS.png)
 * C(Command), Q(Query), R(Responsibility), S(Segregation)
 * 일기와 업데이트 작업을 DB를 분리하여 수행
   * 업데이트 발생 시 메시지 브로커를 통하여 읽기 DB에도 반영

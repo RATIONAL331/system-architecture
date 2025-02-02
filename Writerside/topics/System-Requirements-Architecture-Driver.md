@@ -15,6 +15,7 @@
   * User Flows(사용자 흐름)
     * Use Case를 더욱 세밀하게 사용 사례를 시각화
 #### 요구사항 수집
+![SEQUENCE_DIAGRAM.png](SEQUENCE_DIAGRAM.png)
 1. 모든 사용자 및 액터를 명시
 2. 사용 사례 및 시나리오를 모두 설계
 3. 작업의 흐름이나 시스템에서의 액터간 상호작용을 시각화
